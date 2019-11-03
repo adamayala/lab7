@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js" ></script>
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <title>Lab 5: Pixabay Search</title>
+    </head>
+    <body>
+        <h1>Pixabay Image Search</h1>
+        <br>
+        <h2>Keyword:<input type="text" id="keyword"></h2>
+        <h3>Orientation:<select id="orientation">
+            <option value="horizontal">Horizontal</option>
+            <option value="vertical">Vertical</option>
+        </select></h3>
+        <button id="submitButton">Get Pictures</button>
+        <hr>
+        <br>
+        <table align='center'>
+            <tr>
+                <td>likes: '<%likes[0]%>'<br><img src='<%pictures[0]%>'></td>
+            </tr>
+        </table>
+    </body>
+</html>
